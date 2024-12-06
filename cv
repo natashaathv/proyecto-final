@@ -1,1 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Currículum Vitae - [Tu Nombre] - Futuro</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #333;
+            color: white;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .contact-info, .skills, .experience, .education, .projects, .languages, .certifications {
+            margin-bottom: 20px;
+        }
+        h2 {
+            background-color: #444;
+            color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+        .skills ul {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skills li {
+            margin-right: 15px;
+            background-color: #f0f0f0;
+            padding: 8px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>[Tu Nombre]</h1>
+            <p>Desarrollador Full-Stack | Líder en Innovación Digital | Experto en IA</p>
+        </header>
+        
+        <section class="contact-info">
+            <h2>Contacto</h2>
+            <ul>
+                <li>Email: tu.email@dominio.com</li>
+                <li>Teléfono: +34 600 000 000</li>
+                <li>LinkedIn: linkedin.com/in/tunombre</li>
+                <li>GitHub: github.com/tunombre</li>
+            </ul>
+        </section>
 
+        <section class="skills">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>JavaScript (React, Node.js, Vue.js)</li>
+                <li>Python (TensorFlow, PyTorch)</li>
+                <li>Desarrollo en la nube (AWS, Azure, Google Cloud)</li>
+                <li>Machine Learning e Inteligencia Artificial</li>
+                <li>DevOps (Docker, Kubernetes)</li>
+                <li>Gestión de equipos y proyectos ágiles</li>
+                <li>Diseño UX/UI</li>
+            </ul>
+        </section>
+
+        <section class="experience">
+            <h2>Experiencia Profesional</h2>
+            <ul>
+                <li>
+                    <strong>Chief Technology Officer (CTO)</strong> | InnovTech Inc. <br> 
+                    <em>2029 - Actualidad</em><br>
+                    Responsable de la estrategia tecnológica, implementación de soluciones de IA en productos y liderazgo de un equipo de más de 50 ingenieros.
+                </li>
+                <li>
+                    <strong>Desarrollador Full-Stack Senior</strong> | FutureSoft <br> 
+                    <em>2025 - 2029</em><br>
+                    Desarrollo de aplicaciones web y móviles con enfoque en la integración de IA y Big Data para optimizar el rendimiento de plataformas.
+                </li>
+                <li>
+                    <strong>Ingeniero de Software</strong> | TechPro Solutions <br> 
+                    <em>2021 - 2025</em><br>
+                    Desarrollo de aplicaciones en la nube y en sistemas distribuidos, así como implementación de microservicios y contenedores.
+                </li>
+            </ul>
+        </section>
+
+        <section class="education">
+            <h2>Educación</h2>
+            <ul>
+                <li>
+                    <strong>Doctorado en Inteligencia Artificial</strong> | Universidad de Innovación Digital <br>
+                    <em>2026 - 2029</em>
+                </li>
+                <li>
+                    <strong>Máster en Ciencias de la Computación</strong> | Universidad de Tecnología Avanzada <br>
+                    <em>2023 - 2025</em>
+                </li>
+                <li>
+                    <strong>Grado en Ingeniería Informática</strong> | Universidad Politécnica <br>
+                    <em>2018 - 2022</em>
+                </li>
+            </ul>
+        </section>
+
+        <section class="projects">
+            <h2>Proyectos Destacados</h2>
+            <ul>
+                <li>
+                    <strong>AI Optimizer</strong>: Plataforma de optimización de procesos industriales utilizando algoritmos de IA para la mejora continua. Implementado en más de 20 empresas del sector manufacturero.
+                </li>
+                <li>
+                    <strong>CloudX</strong>: Plataforma de gestión de infraestructuras en la nube para grandes empresas, reduciendo los costes operativos en un 30% mediante automatización y machine learning.
+                </li>
+            </ul>
+        </section>
+
+        <section class="languages">
+            <h2>Idiomas</h2>
+            <ul>
+                <li>Español: Nativo</li>
+                <li>Inglés: Avanzado (C1)</li>
+                <li>Alemán: Intermedio (B2)</li>
+            </ul>
+        </section>
+
+        <section class="certifications">
+            <h2>Certificaciones</h2>
+            <ul>
+                <li>Certified Kubernetes Administrator (CKA)</li>
+                <li>Google Cloud Professional Data Engineer</li>
+                <li>Machine Learning Specialization - Coursera (2027)</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
